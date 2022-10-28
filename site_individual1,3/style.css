@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+}
+h1{
+    color: white;
+    font-family: Bahnschrift;
+    border: solid white;
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right:20%;
+    font-size: 50px;
+    box-shadow: 5px 5px 3px black;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+}
+#texto_inserido{
+    border: solid rgb(71, 221, 71) 4px;
+}
+#saida_texto{
+    border: solid rgb(221, 26, 26) 4px;
+}
+h3{
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+
+}
+body{
+    background-image: url(fundo2.jpg);
+}
+.titulo{
+    text-align: center;
+    margin-top: 65px;
+}
+/* select */
+#linguagem{
+    background-color: rgb(170, 170, 187);
+    padding: 10px;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.form{
+    text-align: center;
+}
+.inserir{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    padding :20px;
+    font-size: 20px;
+    font-family: Bahnschrift;
+    box-shadow: 5px 5px 3px black;
+    background-color: white;
+    resize: none;
+}
+#inserir_num{
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    padding :20px;
+    font-size: 20px;
+    font-family: Bahnschrift;
+    box-shadow: 5px 5px 3px black;
+    background-color: white;
+    resize: none;
+}
+.botoes{
+    padding:10px;
+    background-color: rgb(170, 170, 187);
+    font-family:Bahnschrift;
+    font-size: 20px;
+    border: solid rgb(187, 158, 158);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 5px 3px black;
+}
+.botoes:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color:black;
+}
+.caixa_botoes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#codificar{
+    margin-left: 30px;
+    background-color: rgb(43, 150, 43);
+    border: green;
+}
+.caixas{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    text-align: center;
+    align-items: center;
+}
+#caixa_entrada{
+    margin-right: 25px;
+}
+#caixa_saida{
+    margin-left: 25px;
+}
+#setas{
+   width: 101px;
+   height: 100px;
+}
+#decodificar{
+    background-color: red;
+    border: red;
+}
+footer{
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.redes{
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.logo:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
